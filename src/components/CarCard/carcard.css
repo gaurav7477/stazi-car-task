@@ -1,0 +1,124 @@
+.carCardDiv
+{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F6FE;
+    align-items: center;
+    padding: 0.8rem 0.8rem;
+    border-radius: 1rem;
+    gap: -0.5rem;
+    box-shadow: 1px 3px 8px #00000078;
+    margin: auto;
+}
+
+.carCardDiv img
+{
+    height: 210px;
+    width: 98%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.nameModelSection
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.carModel
+{
+    border: 2px dashed blue;
+    border-radius: 0.8rem;
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.carFeatures
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.carFeatures>div
+{
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.icons
+{
+    font-size: 1.2rem;
+    color: #499aec;
+}
+
+.carFeatures>div>div
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hrline
+{
+    width: 100%;
+    height: 1px;
+    background-color: #a5a2a2;
+    margin: 0.5rem 0;
+}
+
+.carRentOption 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.carRentOption>div:nth-child(1)
+{
+    font-size: 1.5rem;
+}
+
+.carRentOption>div:nth-child(1) span
+{
+    font-size: 0.9rem;
+}
+
+.carRentOption>div:nth-child(2)
+{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.likeIcon
+{
+    background-color:  #daeafa;
+    font-size: 1rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    color: #499aec;
+}
+
+.carRentOption>div:nth-child(2) button
+{
+    border: none;
+    padding: 0.25rem 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    background-color: #499aec;
+    color: white;
+}
+
+
+
+
